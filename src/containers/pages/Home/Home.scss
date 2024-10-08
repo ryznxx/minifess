@@ -1,0 +1,116 @@
+.home-container {
+  // height: 100vh;
+  background-color: var(--primary-bg);
+  padding: 20px;
+  color: var(--primary-col);
+  padding-bottom: 15vh;
+}
+
+.greeting {
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  h1 {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.infobr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .info-berita {
+    margin: 20px 0px;
+  }
+}
+
+.home-news-wrapper {
+  margin: 20px 0px;
+  .home-news {
+    margin: 20px 0px;
+    display: flex;
+    gap: 10px;
+    height: 14vh;
+
+    .home-news-left {
+      img {
+        width: 35vw;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    }
+    .home-news-right {
+      width: 100%;
+      // color: blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h4 {
+        font-size: 0.9rem;
+        line-height: 1.3;
+      }
+      .waktu {
+        font-size: 0.5rem;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 0.6rem;
+      }
+
+      .home-news-pk {
+        display: flex;
+        justify-content: space-between;
+        .pfp {
+          width: 20px;
+          height: 20px;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+.home-box-profile {
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 20px;
+  background: var(--primary-box);
+  display: flex;
+  gap: 20px;
+  line-height: 1.2;
+  position: relative;
+  .addt {
+    width: 40vw;
+    transform: translateY(-0vh) translateX(60vw);
+    position: absolute;
+  }
+  .home-box-photo {
+    img {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+    }
+  }
+  .home-box-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.home-progress {
+  border-radius: 20px;
+  margin: 10px 0px;
+  padding: 20px;
+
+  background: var(--primary-box);
+}
+
+.semi {
+  font-weight: 500;
+}

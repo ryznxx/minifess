@@ -1,0 +1,38 @@
+nav {
+  user-select: none;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  background: var(--primary-box);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 5vh;
+  gap: 2px;
+  margin-top: 5px;
+  // background-color: yellow;
+  span {
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.6rem;
+  }
+  // &.tw {
+  //   margin-top: 10px;
+  // }
+  p {
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 500;
+    // white-space: nowrap;
+  }
+}

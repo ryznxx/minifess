@@ -1,0 +1,31 @@
+.library-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: var(--primary-bg);
+  height: 100vh;
+  color: var(--primary-col);
+  h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+    span {
+      font-weight: 700;
+    }
+  }
+  .library-option {
+    span {
+      font-size: 3rem;
+    }
+    margin: 10px 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--primary-bg-darken);
+  }
+}

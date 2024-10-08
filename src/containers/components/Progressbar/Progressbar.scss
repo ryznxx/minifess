@@ -1,0 +1,16 @@
+.progressbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--primary-col);
+  .progressbox {
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 1rem;
+    .progress {
+      background-color: var(--primary-bg-darken);
+    }
+  }
+}
