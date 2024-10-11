@@ -1,0 +1,31 @@
+.upload-container {
+  height: 100vh;
+  background: var(--primary-bg);
+  color: var(--primary-col);
+  padding: 20px;
+  h1 {
+    // color: var(--primary-col);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+    span {
+      font-weight: 700;
+    }
+  }
+  .upload-button {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--primary-bg-darken);
+    padding: 20px;
+    border-radius: 20px;
+    .ub-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      display: flex;
+    }
+  }
+}

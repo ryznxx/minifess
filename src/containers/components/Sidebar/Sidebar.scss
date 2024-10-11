@@ -9,3 +9,31 @@
     font-size: 1.8rem;
   }
 }
+
+.sidebar-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: brightness(40%) blur(2px);
+  z-index: 999;
+  .sidebar-container {
+    background: var(--primary-bg);
+    width: 50vw;
+    height: 100vh;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    span {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      list-style: none;
+    }
+  }
+}

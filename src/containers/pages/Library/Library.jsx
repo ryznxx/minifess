@@ -6,7 +6,7 @@ const Library = () => {
   const navigate = useNavigate();
   return (
     <section className="library-container">
-      <Navbar />
+      {/* <Navbar /> */}
       <h1 onClick={() => navigate("/")}>
         <span className="material-symbols-rounded">arrow_back</span> Library
       </h1>

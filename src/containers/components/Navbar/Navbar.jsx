@@ -10,15 +10,15 @@ const Navbar = () => {
         <span className="material-symbols-rounded">book</span>
         <p>Library</p>
       </div>
-      <div className="nav-icon">
+      <div onClick={() => navigate("/comic")} className="nav-icon">
         <span className="material-symbols-rounded">manga</span>
         <p>Comic</p>
       </div>
-      <div className="nav-icon tw">
+      <div onClick={() => navigate("/upload")} className="nav-icon tw">
         <span className="material-symbols-rounded">add</span>
-        <p>New Story</p>
+        <p>Upload</p>
       </div>
-      <div className="nav-icon">
+      <div onClick={() => navigate("/eduvid ")} className="nav-icon">
         <span className="material-symbols-rounded">head_mounted_device</span>
         <p>Eduvid</p>
       </div>

@@ -39,7 +39,7 @@ const Home = () => {
   return (
     <section className="home-container">
       <Sidebar />
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="home-content">
         <div className="greeting">
           <h1>Halo,</h1>

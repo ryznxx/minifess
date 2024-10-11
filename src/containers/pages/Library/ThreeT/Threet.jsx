@@ -3,6 +3,7 @@ import News from "../../../components/News/News";
 import "./Threet.scss";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../../../components/Navbar/Navbar";
+
 const Threet = () => {
   const navigate = useNavigate();
   return (
