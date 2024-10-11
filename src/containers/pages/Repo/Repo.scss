@@ -1,5 +1,5 @@
-.threet-container {
-  // height: 100vh;
+.repo-container {
+  height: 100vh;
   padding: 20px;
   background: var(--primary-bg);
   padding-bottom: 15vh;
@@ -13,9 +13,5 @@
     span {
       font-weight: 700;
     }
-  }
-
-  .news-wrapper {
-    margin: 20px 0px;
   }
 }

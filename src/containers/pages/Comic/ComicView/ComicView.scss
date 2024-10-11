@@ -1,6 +1,8 @@
 .comicview-container {
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 10vw;
   background: var(--primary-bg);
   color: var(--primary-col);
   h1 {
@@ -16,5 +18,28 @@
   }
   img {
     width: 100%;
+  }
+
+  .oks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+
+  .comicv-container {
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .coba {
+      font-weight: 600;
+      background: var(--primary-box);
+      width: 40vw;
+      padding: 20px;
+      border-radius: 20px;
+      border: none;
+    }
   }
 }

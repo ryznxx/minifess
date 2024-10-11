@@ -9,6 +9,7 @@ nav {
   border-radius: 20px;
   display: flex;
   color: var(--primary-col);
+  z-index: 99999;
 }
 
 .nav-icon {

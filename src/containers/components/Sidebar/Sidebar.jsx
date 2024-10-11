@@ -28,7 +28,6 @@ const Sidebar = () => {
             </span>
             <ul>
               <li>Setting</li>
-              <li>Workflow</li>
               <li>Info</li>
               <li>About</li>
               <li>Developer</li>

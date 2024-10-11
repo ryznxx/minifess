@@ -35,9 +35,21 @@ const ComicView = () => {
         {judul && judul}
       </h1>
       {gambar ? (
-        <img src={gambar} alt="Comic" />
+        <div className="comicv-container">
+          <img src={gambar} alt="Comic" />
+          <button
+            onClick={() => navigate(`/comic/quiz/${id}?judul=${judul}`)}
+            className="coba"
+          >
+            Coba Quiz
+          </button>
+        </div>
       ) : (
-        <p>No image found for this ID</p>
+        <div className="oks">
+          <p>
+            Comic Rusak, <a href="#">Laporkan Admin</a>
+          </p>
+        </div>
       )}
     </section>
   );

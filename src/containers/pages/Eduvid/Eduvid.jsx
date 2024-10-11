@@ -41,14 +41,16 @@ const Eduvid = () => {
       <h1 onClick={() => navigate("/")}>
         <span className="material-symbols-rounded">arrow_back</span> Eduvid
       </h1>
-      {dataVideo.map((data) => {
+      {dataVideo.map((data, id) => {
         return (
-          <EduvidDisplay
-            judul={data.judul}
-            video={data.url}
-            deskripsi={data.deskripsi}
-            sumber={data.sumber}
-          />
+          <div key={id}>
+            <EduvidDisplay
+              judul={data.judul}
+              video={data.url}
+              deskripsi={data.deskripsi}
+              sumber={data.sumber}
+            />
+          </div>
         );
       })}
     </section>

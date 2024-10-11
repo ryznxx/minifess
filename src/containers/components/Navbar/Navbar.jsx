@@ -22,7 +22,7 @@ const Navbar = () => {
         <span className="material-symbols-rounded">head_mounted_device</span>
         <p>Eduvid</p>
       </div>
-      <div className="nav-icon">
+      <div onClick={() => navigate("/repository")} className="nav-icon">
         <span className="material-symbols-rounded">archive</span>
         <p>Repository</p>
       </div>

@@ -31,7 +31,7 @@ const ComicDisplay = ({ judul, sinopsis, rilis, gambar, id }) => {
           <p>
             {sinopsis
               ? sinopsis.length > 6
-                ? sinopsis.slice(0, 32) + "..."
+                ? sinopsis.slice(0, 20) + "..."
                 : sinopsis
               : "Tidak memiliki sinopsis"}
           </p>

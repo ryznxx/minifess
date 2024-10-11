@@ -7,15 +7,20 @@
   overflow: hidden;
   color: var(--primary-col);
   iframe {
+    position: relative;
     width: 40vw;
     height: 100%;
     object-fit: cover;
+    z-index: 1;
   }
   .eduvid-video-text {
     text-transform: capitalize;
     padding: 20px;
-    a {
+    p {
       font-size: 0.8rem;
+    }
+    a {
+      font-size: 0.5rem;
     }
   }
 }

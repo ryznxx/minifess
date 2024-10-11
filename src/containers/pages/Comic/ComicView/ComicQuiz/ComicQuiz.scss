@@ -1,0 +1,56 @@
+.comic-s-co {
+  background: var(--primary-bg);
+  height: 100vh;
+  padding: 20px;
+  color: var(--primary-col);
+  h1 {
+    // color: var(--primary-col);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+    span {
+      font-weight: 700;
+    }
+  }
+  .comicf {
+    button {
+      margin: 1rem 0px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: none;
+      background: var(--primary-bg-darken);
+      margin-top: 20px;
+      color: var(--primary-col);
+    }
+  }
+  .quiz-s {
+    h3 {
+      margin-bottom: 2rem;
+      background: var(--primary-box);
+      border-radius: 20px;
+      width: fit-content;
+      padding: 10px;
+    }
+    .pick {
+      display: flex;
+      gap: 20px;
+      margin: 1.5rem 0px;
+      .option {
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        background: var(--primary-bg-darken);
+      }
+    }
+    .salah {
+      button {
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        background: var(--primary-bg-darken);
+        margin-top: 20px;
+      }
+    }
+  }
+}
