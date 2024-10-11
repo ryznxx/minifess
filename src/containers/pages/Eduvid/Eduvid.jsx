@@ -2,6 +2,7 @@ import React from "react";
 import "./Eduvid.scss";
 import EduvidDisplay from "../../components/EduvidDisplay/EduvidDisplay";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const dataVideo = [
   {
@@ -38,6 +39,10 @@ const Eduvid = () => {
 
   return (
     <section className="eduvid-container">
+      <Helmet>
+        <title>Eduvid - Educational Video</title>
+      </Helmet>
+
       <h1 onClick={() => navigate("/")}>
         <span className="material-symbols-rounded">arrow_back</span> Eduvid
       </h1>

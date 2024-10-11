@@ -3,6 +3,7 @@ import { useParams, useLocation, useNavigate } from "react-router-dom";
 import comic1 from "../../../../assets/dudungpmalas.jpg";
 import comic2 from "../../../../assets/legendatp.jpg";
 import "./ComicView.scss";
+import { Helmet } from "react-helmet-async";
 
 const ComicView = () => {
   const { id } = useParams();
@@ -30,6 +31,9 @@ const ComicView = () => {
 
   return (
     <section className="comicview-container">
+      <Helmet>
+        <title>Comic - {judul.toLowerCase()}</title>
+      </Helmet>
       <h1 onClick={() => navigate("/comic")}>
         <span className="material-symbols-rounded">arrow_back</span>{" "}
         {judul && judul}

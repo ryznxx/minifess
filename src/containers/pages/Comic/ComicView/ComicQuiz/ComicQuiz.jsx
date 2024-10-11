@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useLocation, useNavigate } from "react-router-dom";
 import "./ComicQuiz.scss";
+import { Helmet } from "react-helmet-async";
 const questionsDudung = [
   {
     question: "Apa yang sedang dilakukan Dudung di panel pertama?",
@@ -126,7 +127,11 @@ const ComicQuiz = () => {
 
   return (
     <div className="comic-s-co">
-      <h1 onClick={() => navigate("/")}>
+      <Helmet>
+        <title>Comic Quiz</title>
+      </Helmet>
+
+      <h1 onClick={() => navigate(-1)}>
         <span className="material-symbols-rounded">arrow_back</span> Comic
       </h1>
       {quizFinished ? (

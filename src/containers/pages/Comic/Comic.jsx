@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import ComicDisplay from "../../components/ComicDisplay/ComicDisplay";
 import comic1 from "../../../assets/dudungpmalas.jpg";
 import comic2 from "../../../assets/legendatp.jpg";
+import { Helmet } from "react-helmet-async";
 
 const comics = [
   {
@@ -41,6 +42,9 @@ const Comic = () => {
   return (
     <section className="comic-container">
       {/* <Navbar /> */}
+      <Helmet>
+        <title>Comic</title>
+      </Helmet>
       <h1 onClick={() => navigate("/")}>
         <span className="material-symbols-rounded">arrow_back</span> Comic
       </h1>

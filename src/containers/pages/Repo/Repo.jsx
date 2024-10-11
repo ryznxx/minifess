@@ -1,15 +1,19 @@
 import React from "react";
 import "./Repo.scss";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 const Repo = () => {
   const navigate = useNavigate();
   return (
-    <div className="repo-container">
+    <div className="repos-container">
+      <Helmet>
+        <title>Repository - Download</title>
+      </Helmet>
       <h1 onClick={() => navigate("/")}>
         <span className="material-symbols-rounded">arrow_back</span> Repository
       </h1>
       <div className="repos">
-        <h1>Belum Ada Document, File, Atau yang lainnya yang telah diunduh</h1>
+        <h3>Belum Ada Document, File, Atau yang lainnya yang telah diunduh</h3>
       </div>
     </div>
   );

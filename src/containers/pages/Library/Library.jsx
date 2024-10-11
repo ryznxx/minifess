@@ -2,11 +2,15 @@ import React from "react";
 import "./Library.scss";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
+import { Helmet } from "react-helmet-async";
 const Library = () => {
   const navigate = useNavigate();
   return (
     <section className="library-container">
       {/* <Navbar /> */}
+      <Helmet>
+        <title>Library</title>
+      </Helmet>
       <h1 onClick={() => navigate("/")}>
         <span className="material-symbols-rounded">arrow_back</span> Library
       </h1>

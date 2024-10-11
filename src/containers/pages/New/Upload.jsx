@@ -1,11 +1,16 @@
 import React from "react";
 import "./Upload.scss";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Upload = () => {
   const navigate = useNavigate();
   return (
     <section className="upload-container">
+      <Helmet>
+        <title>Upload</title>
+      </Helmet>
+
       <h1 onClick={() => navigate("/")}>
         <span className="material-symbols-rounded">arrow_back</span> Upload
       </h1>

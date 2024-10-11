@@ -1,15 +1,17 @@
-.repo-container {
+.repos-container {
   height: 100vh;
   padding: 20px;
   background: var(--primary-bg);
   padding-bottom: 15vh;
   color: var(--primary-col);
+
   h1 {
     // color: var(--primary-col);
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 2rem;
+    font-size: 1.6rem;
     span {
       font-weight: 700;
     }
