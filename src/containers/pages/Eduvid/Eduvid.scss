@@ -1,0 +1,16 @@
+.eduvid-container {
+  height: 100vh;
+  background: var(--primary-bg);
+  padding: 20px;
+  color: var(--primary-col);
+  h1 {
+    // color: var(--primary-col);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+    span {
+      font-weight: 700;
+    }
+  }
+}

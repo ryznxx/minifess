@@ -1,0 +1,21 @@
+.eduvid-video {
+  display: flex;
+  // gap: 10px;
+  background: var(--primary-bg-darken);
+  margin: 10px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: var(--primary-col);
+  iframe {
+    width: 40vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  .eduvid-video-text {
+    text-transform: capitalize;
+    padding: 20px;
+    a {
+      font-size: 0.8rem;
+    }
+  }
+}
